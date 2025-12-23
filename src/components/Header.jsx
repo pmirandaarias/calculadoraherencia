@@ -9,6 +9,16 @@ export default function Header() {
       <p className="text-gray-600 text-base md:text-lg mb-2">
         Completa el paso a paso para obtener los montos y porcentajes.
       </p>
+      <p className="text-sm text-gray-500 mt-2">
+        <a
+          href="/privacy-policy.html"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="underline hover:text-gray-700"
+        >
+          Política de Privacidad
+        </a>
+      </p>
     </div>
   );
 }
